@@ -111,5 +111,4 @@ const geturl = async (req, res) => {
   } catch (err) { return res.status(500).send({ status: false, msg: err.message }) }
 }
 
-
 module.exports = { createurl, geturl }
